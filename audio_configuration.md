@@ -7,9 +7,8 @@ Some times the raspberry pi audio output changes from the analog to the hdmi, or
 
 The internal codes for the outputs are:
 
-* Auto: 0
-* Analog: 1
-* HDMI: 2
+Auto: 0, Analog: 1, HDMI: 2
+----------------------------
 
 - Use the amixer.
 
