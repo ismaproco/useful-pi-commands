@@ -13,16 +13,25 @@ The internal codes for the outputs are:
 
 1. Use the amixer
 
-``` amixer cset numid=3 2
+``` 
+amixer cset numid=3 2
 ```
 
 2. Use the raspberry config file
 
-``` sudo raspi-config
+``` 
+sudo raspi-config
 ```
 
 3. Update the config file
 
-``` sudo vim /boot/config.txt
- update hdmi_drive=2
-``` and reboot
+```
+sudo vim /boot/config.txt 
+```
+
+set variable 
+```
+hdmi_drive=2
+```
+
+and reboot
