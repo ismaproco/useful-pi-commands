@@ -1,0 +1,5 @@
+Reproduce video fullscreen
+
+```
+omxplayer -o hdmi video_name  -r
+```
